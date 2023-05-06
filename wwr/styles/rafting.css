@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-color: #B7D3F2;
+    --secondary-color: #84AFE6;
+    --accent1-color: #79BEEE;
+    --accent2-color: #FFFFFF;
+    
+    --heading-font: 'Roboto', sans serif;
+    --paragraph-font: 'Roboto', sans serif;
+
+    --nav-background-color: #B7D3F2;
+    --nav-link-color: #84AFE6;
+    --nav-hover-link-color: #79BEEE;
+    --nav-hover-background-color: #FFFFFF;
+
+
+}
+body{
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 10px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display:block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+article img {
+    float: right ;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+}
