@@ -76,12 +76,12 @@ article img {
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
 }
-
+/* 
 .adventure img {
     display: grid;
     padding: 10px;
     grid-template-rows: 1f 1fr 1fr 1fr 1fr;
-	align-items: center;
+	align-items: center; */
 }
 footer{
     display: grid;
