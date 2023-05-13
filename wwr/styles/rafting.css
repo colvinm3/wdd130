@@ -77,7 +77,7 @@ article img {
     box-shadow: 0 0 30px gray;
 }
 
-.adventure {
+.adventure img {
     display: grid;
     padding: 10px;
     grid-template-rows: 1f 1fr 1fr 1fr 1fr;
