@@ -25,7 +25,10 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 header{
+    display: grid;
     padding: 10px;
+    grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
     background-color: var(--accent1-color);
 }
 p{
@@ -35,6 +38,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: right;
+    align-items: end;
 }
 nav a {
     display:block;
@@ -62,4 +67,29 @@ article img {
     height: auto;
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
+}
+
+.history{
+    float: right ;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+}
+
+.adventure img{
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1f 1fr 1fr 1fr 1fr;
+	align-items: center;
+}
+footer{
+    display: grid;
+    padding: 10px;
+   	align-items: right;
+    background-color: var(--accent1-color);
+}
+footer img{ 
+    float: right;
+    width: 10px;
 }

@@ -75,7 +75,7 @@ header, .grid, footer {
     margin: 0 auto;
 }
 
-.grid{
+.grid {
     display: grid;
     align-items: center;
 }
