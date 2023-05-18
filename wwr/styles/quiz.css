@@ -39,13 +39,14 @@ form {
 }
 
 fieldset {
-    display: grid
+    display: grid;
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 1rem;
-
 }
+
+
 
 legend {
     padding: .5rem;
@@ -71,8 +72,8 @@ font-size: 1.1rem;
     width: 22px;
     height: 22px;
     vertical-align: bottom; */
-
-}
+/*  */
+/* } */
 
 button {
     margin: 1rem;
@@ -110,7 +111,3 @@ footer {
     margin: .5rem 0;
 }
 
-/* .column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: .5rem 0;
-} */
