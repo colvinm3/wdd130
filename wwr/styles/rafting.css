@@ -111,7 +111,7 @@ footer img{
    }
    
    fieldset {
-       display: grid
+       display: grid;
        grid-gap: .5rem;
        margin: 1rem;
        border: 1px solid rgba(0, 0, 0, .2);
@@ -179,7 +179,7 @@ footer img{
    
    .form-item2 {
     display: grid;
-    align-items: left;
+    
 
 }
 
@@ -196,12 +196,12 @@ footer img{
    .column3 {
     grid-template-columns: 1fr;
     margin: .5rem 0;
-    align-items: right;
+    
 }
 
    input[type="radio"] {
     width: 22px;
     height: 22px;
-    align-items: left;
+    
 
 }
